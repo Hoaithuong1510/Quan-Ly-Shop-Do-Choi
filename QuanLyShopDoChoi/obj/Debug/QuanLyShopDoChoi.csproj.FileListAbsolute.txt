@@ -40,3 +40,17 @@ D:\QuanLyShopDoChoi\QuanLyShopDoChoi\QuanLyShopDoChoi\obj\Debug\QuanLyShopDoChoi
 D:\QuanLyShopDoChoi\QuanLyShopDoChoi\QuanLyShopDoChoi\obj\Debug\QuanLyShopDoChoi.UC_LoaiDC.resources
 D:\QuanLyShopDoChoi\QuanLyShopDoChoi\QuanLyShopDoChoi\obj\Debug\QuanLyShopDoChoi.UC_TaiKhoan.resources
 D:\QuanLyShopDoChoi\QuanLyShopDoChoi\QuanLyShopDoChoi\obj\Debug\QuanLyShopDoChoi.csproj.GenerateResource.Cache
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\New folder\Quan-Ly-Shop-Do-Choi\QuanLyShopDoChoi\bin\Debug\QuanLyShopDoChoi.exe.config
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\New folder\Quan-Ly-Shop-Do-Choi\QuanLyShopDoChoi\bin\Debug\QuanLyShopDoChoi.exe
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\New folder\Quan-Ly-Shop-Do-Choi\QuanLyShopDoChoi\bin\Debug\QuanLyShopDoChoi.pdb
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\New folder\Quan-Ly-Shop-Do-Choi\QuanLyShopDoChoi\obj\Debug\QuanLyShopDoChoi.csproj.AssemblyReference.cache
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\New folder\Quan-Ly-Shop-Do-Choi\QuanLyShopDoChoi\obj\Debug\QuanLyShopDoChoi.frmLogin.resources
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\New folder\Quan-Ly-Shop-Do-Choi\QuanLyShopDoChoi\obj\Debug\QuanLyShopDoChoi.frmMain.resources
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\New folder\Quan-Ly-Shop-Do-Choi\QuanLyShopDoChoi\obj\Debug\QuanLyShopDoChoi.Properties.Resources.resources
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\New folder\Quan-Ly-Shop-Do-Choi\QuanLyShopDoChoi\obj\Debug\QuanLyShopDoChoi.UI.UI_Kind.resources
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\New folder\Quan-Ly-Shop-Do-Choi\QuanLyShopDoChoi\obj\Debug\QuanLyShopDoChoi.csproj.GenerateResource.cache
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\New folder\Quan-Ly-Shop-Do-Choi\QuanLyShopDoChoi\obj\Debug\QuanLyShopDoChoi.csproj.CoreCompileInputs.cache
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\New folder\Quan-Ly-Shop-Do-Choi\QuanLyShopDoChoi\obj\Debug\QuanLyShopDoChoi.exe
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\New folder\Quan-Ly-Shop-Do-Choi\QuanLyShopDoChoi\obj\Debug\QuanLyShopDoChoi.pdb
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\New folder\Quan-Ly-Shop-Do-Choi\QuanLyShopDoChoi\obj\Debug\QuanLyShopDoChoi.Resources.HoaDon.resources
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\New folder\Quan-Ly-Shop-Do-Choi\QuanLyShopDoChoi\obj\Debug\QuanLyShopDoChoi.UI.UI_Bill.resources

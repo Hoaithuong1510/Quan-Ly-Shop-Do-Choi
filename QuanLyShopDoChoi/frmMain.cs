@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using QuanLyShopDoChoi.UI;
 
 namespace QuanLyShopDoChoi
 {
@@ -59,11 +60,22 @@ namespace QuanLyShopDoChoi
 			
 		}
 
+		private void clearPanel()
+        {
+			foreach(Control item in pnMain.Controls)
+            {
+				pnMain.Controls.Remove(item);
+            }
+        }
+
 		private void btnSell_Click(object sender, EventArgs e)
 		{
 			moveSidePanel(btnSell);
 			
-			
+			this.pnMain.Refresh();
+			clearPanel();
+			UI_Bill b = new UI_Bill();
+			pnMain.Controls.Add(b);
 		}
 
 		
