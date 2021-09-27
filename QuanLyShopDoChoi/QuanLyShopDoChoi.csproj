@@ -60,30 +60,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UC_DoChoi.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UC_DoChoi.Designer.cs">
-      <DependentUpon>UC_DoChoi.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UC_HoaDon.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UC_HoaDon.Designer.cs">
-      <DependentUpon>UC_HoaDon.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UC_LoaiDC.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UC_LoaiDC.Designer.cs">
-      <DependentUpon>UC_LoaiDC.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UC_TaiKhoan.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UC_TaiKhoan.Designer.cs">
-      <DependentUpon>UC_TaiKhoan.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>
@@ -99,18 +75,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="UC_DoChoi.resx">
-      <DependentUpon>UC_DoChoi.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UC_HoaDon.resx">
-      <DependentUpon>UC_HoaDon.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UC_LoaiDC.resx">
-      <DependentUpon>UC_LoaiDC.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UC_TaiKhoan.resx">
-      <DependentUpon>UC_TaiKhoan.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

@@ -41,29 +41,29 @@ namespace QuanLyShopDoChoi
 		private void btnAccount_Click(object sender, EventArgs e)
 		{
 			moveSidePanel(btnAccount);
-			UC_TaiKhoan uctk = new UC_TaiKhoan();
-			AddControlsToPanel(uctk);
+			
+			
 		}
 
 		private void btnKind_Click(object sender, EventArgs e)
 		{
 			moveSidePanel(btnKind);
-			UC_DoChoi ucdc = new UC_DoChoi();
-			AddControlsToPanel(ucdc);
+			
+			
 		}
 
 		private void btnProduct_Click(object sender, EventArgs e)
 		{
 			moveSidePanel(btnProduct);
-			UC_LoaiDC ucldc = new UC_LoaiDC();
-			AddControlsToPanel(ucldc);
+			
+			
 		}
 
 		private void btnSell_Click(object sender, EventArgs e)
 		{
 			moveSidePanel(btnSell);
-			UC_HoaDon uchd = new UC_HoaDon();
-			AddControlsToPanel(uchd);
+			
+			
 		}
 
 		
