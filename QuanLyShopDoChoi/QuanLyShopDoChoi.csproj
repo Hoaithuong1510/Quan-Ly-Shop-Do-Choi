@@ -65,16 +65,22 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resources\HoaDon.cs">
+    <Compile Include="UI\DoChoi.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Resources\HoaDon.Designer.cs">
+    <Compile Include="UI\DoChoi.Designer.cs">
+      <DependentUpon>DoChoi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\HoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\HoaDon.Designer.cs">
       <DependentUpon>HoaDon.cs</DependentUpon>
     </Compile>
-    <Compile Include="Resources\ThemLoai.cs">
+    <Compile Include="UI\ThemLoai.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Resources\ThemLoai.Designer.cs">
+    <Compile Include="UI\ThemLoai.Designer.cs">
       <DependentUpon>ThemLoai.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\UI_Bill.cs">
@@ -100,10 +106,13 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\HoaDon.resx">
+    <EmbeddedResource Include="UI\DoChoi.resx">
+      <DependentUpon>DoChoi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\HoaDon.resx">
       <DependentUpon>HoaDon.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\ThemLoai.resx">
+    <EmbeddedResource Include="UI\ThemLoai.resx">
       <DependentUpon>ThemLoai.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\UI_Bill.resx">
@@ -124,6 +133,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -10,26 +10,14 @@ using System.Windows.Forms;
 
 namespace QuanLyShopDoChoi.UI
 {
-    public partial class UI_Kind : UserControl
+    public partial class DoChoi : Form
     {
-        public UI_Kind()
+        public DoChoi()
         {
             InitializeComponent();
         }
 
-      
-
-        private void groupBox2_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lvDoChoi_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnChonHinh_Click(object sender, EventArgs e)
+        private void btnOK_Click(object sender, EventArgs e)
         {
 
         }
