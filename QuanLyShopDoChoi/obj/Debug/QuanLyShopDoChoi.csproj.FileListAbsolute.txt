@@ -40,3 +40,15 @@ D:\QuanLyShopDoChoi\QuanLyShopDoChoi\QuanLyShopDoChoi\obj\Debug\QuanLyShopDoChoi
 D:\QuanLyShopDoChoi\QuanLyShopDoChoi\QuanLyShopDoChoi\obj\Debug\QuanLyShopDoChoi.UC_LoaiDC.resources
 D:\QuanLyShopDoChoi\QuanLyShopDoChoi\QuanLyShopDoChoi\obj\Debug\QuanLyShopDoChoi.UC_TaiKhoan.resources
 D:\QuanLyShopDoChoi\QuanLyShopDoChoi\QuanLyShopDoChoi\obj\Debug\QuanLyShopDoChoi.csproj.GenerateResource.Cache
+C:\Users\Administrator\dlu\Quan-Ly-Shop-Do-Choi\QuanLyShopDoChoi\bin\Debug\QuanLyShopDoChoi.exe.config
+C:\Users\Administrator\dlu\Quan-Ly-Shop-Do-Choi\QuanLyShopDoChoi\bin\Debug\QuanLyShopDoChoi.exe
+C:\Users\Administrator\dlu\Quan-Ly-Shop-Do-Choi\QuanLyShopDoChoi\bin\Debug\QuanLyShopDoChoi.pdb
+C:\Users\Administrator\dlu\Quan-Ly-Shop-Do-Choi\QuanLyShopDoChoi\obj\Debug\QuanLyShopDoChoi.csproj.AssemblyReference.cache
+C:\Users\Administrator\dlu\Quan-Ly-Shop-Do-Choi\QuanLyShopDoChoi\obj\Debug\QuanLyShopDoChoi.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\dlu\Quan-Ly-Shop-Do-Choi\QuanLyShopDoChoi\obj\Debug\QuanLyShopDoChoi.frmLogin.resources
+C:\Users\Administrator\dlu\Quan-Ly-Shop-Do-Choi\QuanLyShopDoChoi\obj\Debug\QuanLyShopDoChoi.frmMain.resources
+C:\Users\Administrator\dlu\Quan-Ly-Shop-Do-Choi\QuanLyShopDoChoi\obj\Debug\QuanLyShopDoChoi.Properties.Resources.resources
+C:\Users\Administrator\dlu\Quan-Ly-Shop-Do-Choi\QuanLyShopDoChoi\obj\Debug\QuanLyShopDoChoi.csproj.GenerateResource.cache
+C:\Users\Administrator\dlu\Quan-Ly-Shop-Do-Choi\QuanLyShopDoChoi\obj\Debug\QuanLyShopDoChoi.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\dlu\Quan-Ly-Shop-Do-Choi\QuanLyShopDoChoi\obj\Debug\QuanLyShopDoChoi.exe
+C:\Users\Administrator\dlu\Quan-Ly-Shop-Do-Choi\QuanLyShopDoChoi\obj\Debug\QuanLyShopDoChoi.pdb

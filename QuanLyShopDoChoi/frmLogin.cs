@@ -23,8 +23,7 @@ namespace QuanLyShopDoChoi
 			string password = txtPassword.Text;
 			if (userName.CompareTo("HoaiThuong") == 0 && password.CompareTo("1911213") == 0)
 			{
-				frmMain main = new frmMain();
-				main.ShowDialog();
+				DialogResult = DialogResult.OK;
 				this.Close();
 			}
 			else
@@ -37,14 +36,16 @@ namespace QuanLyShopDoChoi
 
 		private void btnExit_Click(object sender, EventArgs e)
 		{
+			var result = MessageBox.Show("Bạn có chắc chắn muốn thoát chương trình hay không?", "Thoát", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+			if (result != DialogResult.Yes)
+            {
+				this.DialogResult = DialogResult.Cancel;
+            }
 			Application.Exit();
 		}
 
 		private void frmLogin_FormClosing(object sender, FormClosingEventArgs e)
 		{
-			var result = MessageBox.Show("Bạn có chắc chắn muốn thoát chương trình hay không?", "Thoát", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-			if (result != DialogResult.Yes)
-				e.Cancel = true;
 		}
 	}
 }

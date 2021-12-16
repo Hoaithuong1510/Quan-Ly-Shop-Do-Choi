@@ -14,6 +14,13 @@ namespace QuanLyShopDoChoi
 	{
 		public frmMain()
 		{
+			var f = new frmLogin();
+			f.ShowDialog(this);
+			if (f.DialogResult == DialogResult.OK)
+			{
+
+			}
+			else { this.Close(); }
 			InitializeComponent();
 		}
 		private void moveSidePanel(Control btn)

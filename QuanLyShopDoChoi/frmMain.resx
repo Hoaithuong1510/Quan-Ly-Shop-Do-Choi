@@ -136,7 +136,7 @@
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAfQAAAH0CAYAAADL1t+KAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        xAAADsQBlSsOGwAALytJREFUeF7t3fefFFX69vHnT1vMIAZ0V/ka18zqSlBRAQOKCigYMKCCYgTFgCJi
+        wwAADsMBx2+oZAAALytJREFUeF7t3fefFFX69vHnT1vMIAZ0V/ka18zqSlBRAQOKCigYMKCCYgTFgCJi
         RILIIiJmRVSiA5IZ4jCMW49Xuaetrrk7V3VP3/P54f1amTp1qnqmtq4+p8459f9+//33CAAAtDcCHQAA
         Bwh0AAAcINABAHCAQAcAwAECHQAABwh0AAAcINABAHCAQAcAwAECHQAABwh0AAAcINABAHCAQAcAwAEC
         HQAABwh0AAAcINABAHCAQAcAwAECHQAABwh0AAAcINABAHCAQAcAwAECHQAABwh0AAAcINABAHCAQAcA
@@ -343,7 +343,7 @@
   <data name="btnHome.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        xAAADsQBlSsOGwAAAhJJREFUWEe9lyFIA1EYx4eYxSAGk0GGDBGDmGRRREyyMAwiS0NEREQMKwsLYjLI
+        wwAADsMBx2+oZAAAAhJJREFUWEe9lyFIA1EYx4eYxSAGk0GGDBGDmGRRREyyMAwiS0NEREQMKwsLYjLI
         EBERkSFiEKMYTEaRBYNhmMQgYhARkfn/v/edt813t7fd7n7wg/m9//vet5t3uli7VKvVFLyAl3ARykoE
         4LA8bGQbSiJEcEhOHWcm3CHQfFMd488WlB0dBE3XVHs7CrKtM6Dhsu7bEnnZHgw0ysIf1bJ1ctKmPdAg
         A9s93GFD2rUGNi7AoIc7rEhbO7AhDb/V1s7AN5KV9v4gOAc7ebgDh8jIMWYQmIVfTIcEh5iX4+rBwhT8
@@ -358,7 +358,7 @@
   <data name="btnAccount.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        xAAADsQBlSsOGwAAApBJREFUWEe1lzFoFEEUho8QJIQUEkQsQkgRDrEIFhYpJJWFpJBgIcEiiEWQVCIi
+        wwAADsMBx2+oZAAAApBJREFUWEe1lzFoFEEUho8QJIQUEkQsQkgRDrEIFhYpJJWFpJBgIcEiiEWQVCIi
         FiKItViKhUiwECsLi2ARJASxkBQiFhIkhYVYBLEQEZHz+9++g9yxO/N22XzwcZfZ98/mdmdnZjtt0uv1
         ZBfP4ikc9UOHDye7hLt4kO94A0e87HDgBNd1tgRP0atbho51yf/oLBmWPFIPgqN4DtfwGl7AcT+s45P4
         AXNseCQOoYv41eKD/MRbaPeWz2ncxxQ/0PoNQfEq/lMywRMvV72uTo4xL09DoX7RL4vksXvL5ximrsJf

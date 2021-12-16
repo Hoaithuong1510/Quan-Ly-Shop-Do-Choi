@@ -64,7 +64,7 @@
             this.btnSell.Image = ((System.Drawing.Image)(resources.GetObject("btnSell.Image")));
             this.btnSell.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSell.Location = new System.Drawing.Point(4, 486);
-            this.btnSell.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSell.Margin = new System.Windows.Forms.Padding(4);
             this.btnSell.Name = "btnSell";
             this.btnSell.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
             this.btnSell.Size = new System.Drawing.Size(267, 74);
@@ -79,8 +79,8 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.White;
             this.panel2.Controls.Add(this.pictureBox1);
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Location = new System.Drawing.Point(4, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(287, 172);
             this.panel2.TabIndex = 0;
@@ -89,10 +89,9 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(287, 172);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -111,7 +110,7 @@
             this.panel1.Controls.Add(this.btnSell);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(287, 791);
             this.panel1.TabIndex = 5;
@@ -122,7 +121,7 @@
             this.panelside.Cursor = System.Windows.Forms.Cursors.PanSW;
             this.panelside.ForeColor = System.Drawing.Color.White;
             this.panelside.Location = new System.Drawing.Point(0, 180);
-            this.panelside.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelside.Margin = new System.Windows.Forms.Padding(4);
             this.panelside.Name = "panelside";
             this.panelside.Size = new System.Drawing.Size(8, 74);
             this.panelside.TabIndex = 5;
@@ -136,7 +135,7 @@
             this.btnHome.Image = ((System.Drawing.Image)(resources.GetObject("btnHome.Image")));
             this.btnHome.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnHome.Location = new System.Drawing.Point(8, 180);
-            this.btnHome.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnHome.Margin = new System.Windows.Forms.Padding(4);
             this.btnHome.Name = "btnHome";
             this.btnHome.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
             this.btnHome.Size = new System.Drawing.Size(267, 74);
@@ -156,7 +155,7 @@
             this.btnAccount.Image = ((System.Drawing.Image)(resources.GetObject("btnAccount.Image")));
             this.btnAccount.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnAccount.Location = new System.Drawing.Point(8, 245);
-            this.btnAccount.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAccount.Margin = new System.Windows.Forms.Padding(4);
             this.btnAccount.Name = "btnAccount";
             this.btnAccount.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
             this.btnAccount.Size = new System.Drawing.Size(267, 74);
@@ -176,7 +175,7 @@
             this.btnKind.Image = ((System.Drawing.Image)(resources.GetObject("btnKind.Image")));
             this.btnKind.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnKind.Location = new System.Drawing.Point(4, 324);
-            this.btnKind.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnKind.Margin = new System.Windows.Forms.Padding(4);
             this.btnKind.Name = "btnKind";
             this.btnKind.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
             this.btnKind.Size = new System.Drawing.Size(267, 74);
@@ -196,7 +195,7 @@
             this.btnProduct.Image = ((System.Drawing.Image)(resources.GetObject("btnProduct.Image")));
             this.btnProduct.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnProduct.Location = new System.Drawing.Point(0, 405);
-            this.btnProduct.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnProduct.Margin = new System.Windows.Forms.Padding(4);
             this.btnProduct.Name = "btnProduct";
             this.btnProduct.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
             this.btnProduct.Size = new System.Drawing.Size(267, 74);
@@ -295,7 +294,7 @@
             this.ClientSize = new System.Drawing.Size(1737, 791);
             this.Controls.Add(this.pnMain);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmMain";
             this.Text = "frmMain";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
