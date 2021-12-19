@@ -1,4 +1,5 @@
-﻿using System;
+﻿using QuanLyShopDoChoi.DAO.Model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,21 +8,27 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using QuanLyShopDoChoi.View;
 
 namespace QuanLyShopDoChoi
 {
 	public partial class frmMain : Form
 	{
+		private NhanVien _curNv;
+		ToyStoreEntities _context;
 		public frmMain()
 		{
-			var f = new frmLogin();
+			InitializeComponent();
+			_context = new ToyStoreEntities();
+			var f = new frmLogin(_context);
 			f.ShowDialog(this);
 			if (f.DialogResult == DialogResult.OK)
 			{
-
+				_curNv = f._nv;
 			}
-			else { this.Close(); }
-			InitializeComponent();
+			else {
+				_curNv = null;
+			}
 		}
 		private void moveSidePanel(Control btn)
 		{
@@ -31,13 +38,10 @@ namespace QuanLyShopDoChoi
 
 		private void AddControlsToPanel(Control c)
 		{
-			c.Dock = DockStyle.Fill;
-			panelControls.Controls.Clear();
-			panelControls.Controls.Add(c);
 		}
 		private void frmMain_Load(object sender, EventArgs e)
 		{
-			
+			if (_curNv == null) Application.Exit();
 		}
 
 		private void btnHome_Click(object sender, EventArgs e)
@@ -62,15 +66,15 @@ namespace QuanLyShopDoChoi
 		private void btnProduct_Click(object sender, EventArgs e)
 		{
 			moveSidePanel(btnProduct);
-			
+			MatHangUI f = new MatHangUI(_curNv.VaiTro, _context);
+			pnMain.Controls.Clear();
+			pnMain.Controls.Add(f);
 			
 		}
 
 		private void btnSell_Click(object sender, EventArgs e)
 		{
 			moveSidePanel(btnSell);
-			
-			
 		}
 
 		

@@ -52,3 +52,10 @@ C:\Users\Administrator\dlu\Quan-Ly-Shop-Do-Choi\QuanLyShopDoChoi\obj\Debug\QuanL
 C:\Users\Administrator\dlu\Quan-Ly-Shop-Do-Choi\QuanLyShopDoChoi\obj\Debug\QuanLyShopDoChoi.csproj.CoreCompileInputs.cache
 C:\Users\Administrator\dlu\Quan-Ly-Shop-Do-Choi\QuanLyShopDoChoi\obj\Debug\QuanLyShopDoChoi.exe
 C:\Users\Administrator\dlu\Quan-Ly-Shop-Do-Choi\QuanLyShopDoChoi\obj\Debug\QuanLyShopDoChoi.pdb
+C:\Users\Administrator\dlu\Quan-Ly-Shop-Do-Choi\QuanLyShopDoChoi\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\dlu\Quan-Ly-Shop-Do-Choi\QuanLyShopDoChoi\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrator\dlu\Quan-Ly-Shop-Do-Choi\QuanLyShopDoChoi\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\dlu\Quan-Ly-Shop-Do-Choi\QuanLyShopDoChoi\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrator\dlu\Quan-Ly-Shop-Do-Choi\QuanLyShopDoChoi\obj\Debug\QuanLyShopDoChoi.csproj.CopyComplete
+C:\Users\Administrator\dlu\Quan-Ly-Shop-Do-Choi\QuanLyShopDoChoi\obj\Debug\QuanLyShopDoChoi.View.DataForm.DataMatHang.resources
+C:\Users\Administrator\dlu\Quan-Ly-Shop-Do-Choi\QuanLyShopDoChoi\obj\Debug\QuanLyShopDoChoi.View.MatHangUI.resources
