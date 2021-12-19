@@ -31,6 +31,12 @@ namespace QuanLyShopDoChoi.View
 
         private void MatHangUI_Load(object sender, EventArgs e)
         {
+            this.xóaToolStripMenuItem.Enabled = isAdmin;
+            if (isAdmin)
+            {
+                btnDel.Enabled = true;
+                cmiXoaLoai.Enabled = true;
+            }
             this.Dock = DockStyle.Fill;
             LoadTree();
 
@@ -129,7 +135,6 @@ namespace QuanLyShopDoChoi.View
         {
             if (lvDoChoi.SelectedItems.Count == 0) return;
             MatHang x = blHang.Find(int.Parse(lvDoChoi.SelectedItems[0].Text));
-            MessageBox.Show(x.name);
             var f = new DataMatHang(isAdmin, x, _context);
             f.ShowDialog();
             if (f.DialogResult == DialogResult.OK)
@@ -138,6 +143,78 @@ namespace QuanLyShopDoChoi.View
                 LoadTree();
             }
         }
-        
+
+        private void cmiXoaLoai_Click(object sender, EventArgs e)
+        {
+            if(tvLoai.SelectedNode == null) return;
+            if (blLoai.Del((int)tvLoai.SelectedNode.Tag))
+                MessageBox.Show("Xóa loại thành công");
+            LoadTree();
+        }
+
+        private void cmiAddLoai_Click(object sender, EventArgs e)
+        {
+            var f = new DataLoai(null, _context);
+            f.ShowDialog();
+            if(f.DialogResult == DialogResult.OK)
+            {
+                MessageBox.Show("Thêm thành công");
+                LoadTree();
+            }
+        }
+
+        private void xóaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            btnDel.PerformClick();
+        }
+
+        private void sửaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (lvDoChoi.SelectedItems.Count == 0) return;
+            MatHang x = blHang.Find(int.Parse(lvDoChoi.SelectedItems[0].Text));
+            var f = new DataMatHang(isAdmin, x, _context);
+            f.ShowDialog();
+            if (f.DialogResult == DialogResult.OK)
+            {
+                MessageBox.Show("Thêm thành công");
+                LoadTree();
+            }
+        }
+
+        private void thêmToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            btnAdd.PerformClick(); 
+        }
+
+        private void sửaToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            LoaiHang x = blLoai.Find((int)tvLoai.SelectedNode.Tag);
+            var f = new DataLoai(x, _context);
+            f.ShowDialog();
+            if (f.DialogResult == DialogResult.OK)
+            {
+                MessageBox.Show("Sửa thành công");
+                LoadTree();
+            }
+        }
+
+        private void tvLoai_DoubleClick(object sender, EventArgs e)
+        {
+            LoaiHang x = blLoai.Find((int)tvLoai.SelectedNode.Tag);
+            var f = new DataLoai(x, _context);
+            f.ShowDialog();
+            if (f.DialogResult == DialogResult.OK)
+            {
+                MessageBox.Show("Sửa thành công");
+                LoadTree();
+            }
+        }
+
+        private void khuyếnMãiToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            int i = int.Parse(lvDoChoi.SelectedItems[0].Text);
+            var f = new KhuyenMaiUI(_context, isAdmin,i );
+            f.ShowDialog();
+        }
     }
 }

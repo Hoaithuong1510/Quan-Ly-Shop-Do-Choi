@@ -91,12 +91,14 @@
             // 
             // btnOK
             // 
+            this.btnOK.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.btnOK.Location = new System.Drawing.Point(321, 173);
             this.btnOK.Name = "btnOK";
             this.btnOK.Size = new System.Drawing.Size(75, 23);
             this.btnOK.TabIndex = 3;
             this.btnOK.Text = "Lưu";
             this.btnOK.UseVisualStyleBackColor = true;
+            this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
             // 
             // btnCancel
             // 
@@ -106,6 +108,7 @@
             this.btnCancel.TabIndex = 3;
             this.btnCancel.Text = "Hủy";
             this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // DataLoai
             // 
@@ -122,6 +125,7 @@
             this.Controls.Add(this.label1);
             this.Name = "DataLoai";
             this.Text = "DataLoai";
+            this.Load += new System.EventHandler(this.DataLoai_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

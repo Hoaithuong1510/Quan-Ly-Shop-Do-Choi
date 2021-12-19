@@ -60,6 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BL\Auth.cs" />
+    <Compile Include="BL\KhuyenMaiBL.cs" />
     <Compile Include="BL\LoaiHangBL.cs" />
     <Compile Include="BL\MatHangBL.cs" />
     <Compile Include="DAO\Model\ChiTietHD.cs">
@@ -124,6 +125,12 @@
     <Compile Include="View\DataForm\DataMatHang.Designer.cs">
       <DependentUpon>DataMatHang.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\KhuyenMaiUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\KhuyenMaiUI.Designer.cs">
+      <DependentUpon>KhuyenMaiUI.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\MatHangUI.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -151,6 +158,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\DataForm\DataMatHang.resx">
       <DependentUpon>DataMatHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\KhuyenMaiUI.resx">
+      <DependentUpon>KhuyenMaiUI.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\MatHangUI.resx">
       <DependentUpon>MatHangUI.cs</DependentUpon>

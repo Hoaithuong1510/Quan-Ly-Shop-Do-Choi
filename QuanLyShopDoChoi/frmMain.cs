@@ -59,7 +59,7 @@ namespace QuanLyShopDoChoi
 		private void btnKind_Click(object sender, EventArgs e)
 		{
 			moveSidePanel(btnKind);
-			
+			btnProduct.PerformClick();	
 			
 		}
 

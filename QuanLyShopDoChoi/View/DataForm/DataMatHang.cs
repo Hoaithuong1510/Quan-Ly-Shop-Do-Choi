@@ -73,6 +73,7 @@ namespace QuanLyShopDoChoi.View.DataForm
             m.XuatXu= txtXuatXu.Text;
             m.DoTuoi= txtDoTuoi.Text;
             m.idLH = (int)cbLoai.SelectedValue;
+            m.active = true;
             return m;
         }
 

@@ -28,8 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.tvLoai = new System.Windows.Forms.TreeView();
+            this.cmstLoai = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.cmiAddLoai = new System.Windows.Forms.ToolStripMenuItem();
+            this.cmiXoaLoai = new System.Windows.Forms.ToolStripMenuItem();
+            this.sửaToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1 = new System.Windows.Forms.Panel();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.lvDoChoi = new System.Windows.Forms.ListView();
@@ -42,13 +47,20 @@
             this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader8 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader9 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.cmstDoChoi = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.thêmToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.xóaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sửaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.txtSearch = new System.Windows.Forms.TextBox();
             this.btnAdd = new System.Windows.Forms.Button();
             this.btnDel = new System.Windows.Forms.Button();
+            this.khuyếnMãiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox1.SuspendLayout();
+            this.cmstLoai.SuspendLayout();
             this.panel1.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            this.cmstDoChoi.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -68,11 +80,45 @@
             this.tvLoai.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.tvLoai.ContextMenuStrip = this.cmstLoai;
             this.tvLoai.Location = new System.Drawing.Point(3, 18);
             this.tvLoai.Name = "tvLoai";
             this.tvLoai.Size = new System.Drawing.Size(258, 766);
             this.tvLoai.TabIndex = 0;
             this.tvLoai.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.tvLoai_AfterSelect);
+            this.tvLoai.DoubleClick += new System.EventHandler(this.tvLoai_DoubleClick);
+            // 
+            // cmstLoai
+            // 
+            this.cmstLoai.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.cmstLoai.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.cmiAddLoai,
+            this.cmiXoaLoai,
+            this.sửaToolStripMenuItem1});
+            this.cmstLoai.Name = "cmstLoai";
+            this.cmstLoai.Size = new System.Drawing.Size(116, 76);
+            // 
+            // cmiAddLoai
+            // 
+            this.cmiAddLoai.Name = "cmiAddLoai";
+            this.cmiAddLoai.Size = new System.Drawing.Size(115, 24);
+            this.cmiAddLoai.Text = "Thêm";
+            this.cmiAddLoai.Click += new System.EventHandler(this.cmiAddLoai_Click);
+            // 
+            // cmiXoaLoai
+            // 
+            this.cmiXoaLoai.Enabled = false;
+            this.cmiXoaLoai.Name = "cmiXoaLoai";
+            this.cmiXoaLoai.Size = new System.Drawing.Size(115, 24);
+            this.cmiXoaLoai.Text = "Xóa";
+            this.cmiXoaLoai.Click += new System.EventHandler(this.cmiXoaLoai_Click);
+            // 
+            // sửaToolStripMenuItem1
+            // 
+            this.sửaToolStripMenuItem1.Name = "sửaToolStripMenuItem1";
+            this.sửaToolStripMenuItem1.Size = new System.Drawing.Size(115, 24);
+            this.sửaToolStripMenuItem1.Text = "Sửa";
+            this.sửaToolStripMenuItem1.Click += new System.EventHandler(this.sửaToolStripMenuItem1_Click);
             // 
             // panel1
             // 
@@ -114,6 +160,7 @@
             this.columnHeader7,
             this.columnHeader8,
             this.columnHeader9});
+            this.lvDoChoi.ContextMenuStrip = this.cmstDoChoi;
             this.lvDoChoi.FullRowSelect = true;
             this.lvDoChoi.GridLines = true;
             this.lvDoChoi.HideSelection = false;
@@ -171,6 +218,38 @@
             this.columnHeader9.Text = "Ghi chú";
             this.columnHeader9.Width = 440;
             // 
+            // cmstDoChoi
+            // 
+            this.cmstDoChoi.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.cmstDoChoi.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.thêmToolStripMenuItem,
+            this.xóaToolStripMenuItem,
+            this.sửaToolStripMenuItem,
+            this.khuyếnMãiToolStripMenuItem});
+            this.cmstDoChoi.Name = "cmstDoChoi";
+            this.cmstDoChoi.Size = new System.Drawing.Size(211, 128);
+            // 
+            // thêmToolStripMenuItem
+            // 
+            this.thêmToolStripMenuItem.Name = "thêmToolStripMenuItem";
+            this.thêmToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
+            this.thêmToolStripMenuItem.Text = "Thêm";
+            this.thêmToolStripMenuItem.Click += new System.EventHandler(this.thêmToolStripMenuItem_Click);
+            // 
+            // xóaToolStripMenuItem
+            // 
+            this.xóaToolStripMenuItem.Name = "xóaToolStripMenuItem";
+            this.xóaToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
+            this.xóaToolStripMenuItem.Text = "Xóa";
+            this.xóaToolStripMenuItem.Click += new System.EventHandler(this.xóaToolStripMenuItem_Click);
+            // 
+            // sửaToolStripMenuItem
+            // 
+            this.sửaToolStripMenuItem.Name = "sửaToolStripMenuItem";
+            this.sửaToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
+            this.sửaToolStripMenuItem.Text = "Sửa";
+            this.sửaToolStripMenuItem.Click += new System.EventHandler(this.sửaToolStripMenuItem_Click);
+            // 
             // groupBox3
             // 
             this.groupBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -206,6 +285,7 @@
             // 
             // btnDel
             // 
+            this.btnDel.Enabled = false;
             this.btnDel.Location = new System.Drawing.Point(1079, 21);
             this.btnDel.Name = "btnDel";
             this.btnDel.Size = new System.Drawing.Size(75, 23);
@@ -213,6 +293,13 @@
             this.btnDel.Text = "Xóa";
             this.btnDel.UseVisualStyleBackColor = true;
             this.btnDel.Click += new System.EventHandler(this.btnDel_Click);
+            // 
+            // khuyếnMãiToolStripMenuItem
+            // 
+            this.khuyếnMãiToolStripMenuItem.Name = "khuyếnMãiToolStripMenuItem";
+            this.khuyếnMãiToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
+            this.khuyếnMãiToolStripMenuItem.Text = "Khuyến mãi";
+            this.khuyếnMãiToolStripMenuItem.Click += new System.EventHandler(this.khuyếnMãiToolStripMenuItem_Click);
             // 
             // MatHangUI
             // 
@@ -224,8 +311,10 @@
             this.Size = new System.Drawing.Size(1430, 787);
             this.Load += new System.EventHandler(this.MatHangUI_Load);
             this.groupBox1.ResumeLayout(false);
+            this.cmstLoai.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
+            this.cmstDoChoi.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             this.ResumeLayout(false);
@@ -252,5 +341,14 @@
         private System.Windows.Forms.TextBox txtSearch;
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Button btnDel;
+        private System.Windows.Forms.ContextMenuStrip cmstLoai;
+        private System.Windows.Forms.ToolStripMenuItem cmiAddLoai;
+        private System.Windows.Forms.ToolStripMenuItem cmiXoaLoai;
+        private System.Windows.Forms.ContextMenuStrip cmstDoChoi;
+        private System.Windows.Forms.ToolStripMenuItem thêmToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem xóaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sửaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sửaToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem khuyếnMãiToolStripMenuItem;
     }
 }
