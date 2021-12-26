@@ -51,7 +51,7 @@ namespace QuanLyShopDoChoi.BL
             try
             {
                 List<KhuyenMai> ls = _context.KhuyenMais.Where(x => x.idMH == idHang).ToList();
-                return ls;
+                return ls.FindAll(x => checkNgay(x, ds, de));
             }
             catch { return null; }
         }
@@ -80,7 +80,7 @@ namespace QuanLyShopDoChoi.BL
 
         public bool checkNgay(KhuyenMai km, DateTime ds, DateTime de)
         {
-            //if (ds.CompareTo(km.NgayKetThuc) > 0 || de.CompareTo(km.NgayBatDau) < 0) return false;
+            if (ds.CompareTo(km.NgayKetThuc) > 0 || de.CompareTo(km.NgayBatDau) < 0) return false;
             return true;
         }
     }
